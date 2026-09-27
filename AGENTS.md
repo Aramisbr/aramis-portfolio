@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Embed the uploaded profile portrait as a data URI module because the hero photo must render independently of asset hosting paths in published builds.

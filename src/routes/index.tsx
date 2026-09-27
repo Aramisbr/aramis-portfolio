@@ -11,9 +11,7 @@ import {
   X,
 } from "lucide-react";
 
-import profileImgAsset from "@/assets/profile.jpg.asset.json";
-
-const profileImg = profileImgAsset.url;
+import { profileImage } from "@/assets/profile-image";
 import { useReveal } from "@/hooks/use-reveal";
 
 const TITLE = "Aramis Alves — Salesforce Developer";
@@ -283,7 +281,7 @@ function Hero() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-full bg-[var(--gradient-electric)] opacity-25 blur-2xl" />
             <img
-              src={profileImg}
+              src={profileImage}
               width={1024}
               height={1024}
               alt="Foto de perfil de Aramis Alves"

@@ -112,9 +112,10 @@
 }
 
 @theme inline {
-  --font-display: var(--font-display);
-  --font-sans: var(--font-body);
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
 }
+
 
 @layer base {
   * {

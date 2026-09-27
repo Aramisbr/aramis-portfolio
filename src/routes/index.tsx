@@ -305,8 +305,8 @@ function Index() {
           <p className="max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             Sou desenvolvedor Salesforce com experiência prática em configuração, Apex,
             Flows e automações para clientes internacionais de grande porte. Atualmente na
-            OSF Digital, colaboro com times globais na entrega de soluções para contas como
-            Tramontina. Inglês fluente, ambiente 100% remoto e metodologia ágil fazem parte
+            OSF Digital, colaboro com times globais na entrega de soluções para grandes
+            contas internacionais. Inglês fluente, ambiente 100% remoto e metodologia ágil fazem parte
             da minha rotina diária. Estou cursando Análise e Desenvolvimento de Sistemas no
             Cesmac e em constante evolução no ecossistema Salesforce.
           </p>

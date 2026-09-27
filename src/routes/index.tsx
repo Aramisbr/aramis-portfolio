@@ -11,7 +11,9 @@ import {
   X,
 } from "lucide-react";
 
-import profileImg from "@/assets/profile.jpg.asset.json";
+import profileImgAsset from "@/assets/profile.jpg.asset.json";
+
+const profileImg = profileImgAsset.url;
 import { useReveal } from "@/hooks/use-reveal";
 
 const TITLE = "Aramis Alves — Salesforce Developer";

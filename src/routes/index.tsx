@@ -166,7 +166,7 @@ function Section({
 }) {
   const reveal = useReveal<HTMLDivElement>();
   return (
-    <section id={id} className="mx-auto w-full max-w-6xl px-5 py-20 sm:px-8 md:py-28">
+    <section id={id} className="mx-auto w-full max-w-6xl px-5 py-10 sm:px-8 md:py-14">
       <div ref={reveal.ref} className={reveal.className}>
         <h2 className="text-3xl font-bold sm:text-4xl">
           <span className="text-gradient">{title}</span>
@@ -242,7 +242,7 @@ function Header() {
 
 function Hero() {
   return (
-    <section id="top" className="mx-auto w-full max-w-6xl px-5 pt-32 pb-16 sm:px-8 md:pt-44">
+    <section id="top" className="mx-auto w-full max-w-6xl px-5 pt-20 pb-8 sm:px-8 md:pt-24">
       <div className="grid items-center gap-12 md:grid-cols-[1.2fr_0.8fr]">
         <div>
           <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium text-muted-foreground">
